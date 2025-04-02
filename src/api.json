@@ -1,4 +1,46 @@
 {
+  "searches": [
+    {
+      "name": "1",
+      "id": 45
+    },
+    {
+      "name": "2",
+      "id": 46
+    },
+    {
+      "name": "3",
+      "id": 47
+    },
+    {
+      "name": "4",
+      "id": 48
+    },
+    {
+      "name": "5",
+      "id": 49
+    },
+    {
+      "name": "6",
+      "id": 50
+    },
+    {
+      "name": "7",
+      "id": 51
+    },
+    {
+      "name": "8",
+      "id": 52
+    },
+    {
+      "name": "9",
+      "id": 53
+    },
+    {
+      "name": "10",
+      "id": 54
+    }
+  ],
   "users": [
     {
       "email": "admin@admin.com",
@@ -18,6 +60,13 @@
       "confirmPassword": "123123",
       "role": "user",
       "id": 4
+    },
+    {
+      "email": "quangha27103@gmail.com",
+      "password": "$2a$10$r1Cr/SYU9/hJy5VOfqhZJe3loEuj87oZF6J2J.m8avQy.cojiNnaS",
+      "confirmPassword": "Ha!@270203",
+      "role": "user",
+      "id": 5
     }
   ],
   "books": [
