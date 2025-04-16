@@ -1,44 +1,340 @@
 {
+  "delivery": [
+    {
+      "id": 1,
+      "deliveryName": "TikiNOW Smart Logistics",
+      "deliveryLocation": "Đà Nẵng"
+    },
+    {
+      "id": 2,
+      "deliveryName": "Tiki Express",
+      "deliveryLocation": "Hà Nội"
+    },
+    {
+      "id": 3,
+      "deliveryName": "Tiki Standard Delivery",
+      "deliveryLocation": "Hồ Chí Minh"
+    }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "serviceName": "Giao Tiết Kiệm",
+      "deliveryFee": 15000
+    },
+    {
+      "id": 2,
+      "serviceName": "Giao Nhanh",
+      "deliveryFee": 25000
+    },
+    {
+      "id": 3,
+      "serviceName": "Hoả tốc",
+      "deliveryFee": 35000
+    }
+  ],
+  "orders": [
+    {
+      "userId": 2,
+      "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
+      "price": 108000,
+      "quantity": 2,
+      "sale": 0,
+      "orderDate": "4/16/2025",
+      "paymentMethod": "cash",
+      "deliveryDate": "Trước 13h hôm nay",
+      "service": 1,
+      "deliveryId": 1,
+      "sku": "9472871563136",
+      "seller": "Nhà sách Fahasa",
+      "book": {
+        "book_cover": null,
+        "categories": {
+          "id": 316,
+          "name": "Sách tiếng Việt",
+          "is_leaf": false
+        },
+        "current_seller": {
+          "id": 53660,
+          "sku": "9472871563136",
+          "name": "Nhà sách Fahasa",
+          "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
+          "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
+          "price": 108000,
+          "product_id": "74677933",
+          "store_id": 51001,
+          "is_best_store": false,
+          "is_offline_installment_supported": null
+        },
+        "description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”\n- Booklist\n“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”\n- The National\nHãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.\nCó hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến, thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.\nTác giả: \nJOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....",
+        "images": [
+          {
+            "base_url": "https://salt.tikicdn.com/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "is_gallery": true,
+            "label": null,
+            "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+          }
+        ],
+        "list_price": 108000,
+        "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
+        "original_price": 108000,
+        "quantity_sold": {
+          "text": "Đã bán 805",
+          "value": 805
+        },
+        "rating_average": 5,
+        "short_description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”- Booklist“Một cách nhìn cuộc sống gần như hoàn chỉnh t...",
+        "specifications": [
+          {
+            "name": "Thông tin chung",
+            "attributes": [
+              {
+                "code": "publisher_vn",
+                "name": "Công ty phát hành",
+                "value": "Nhã Nam"
+              },
+              {
+                "code": "dimensions",
+                "name": "Kích thước",
+                "value": "14 x 20.5 cm"
+              },
+              {
+                "code": "dich_gia",
+                "name": "Dịch Giả",
+                "value": "Nguyễn Bích Lan , Tô Yến Ly"
+              },
+              {
+                "code": "book_cover",
+                "name": "Loại bìa",
+                "value": "Bìa mềm"
+              },
+              {
+                "code": "number_of_page",
+                "name": "Số trang",
+                "value": "244"
+              },
+              {
+                "code": "manufacturer",
+                "name": "Nhà xuất bản",
+                "value": "Nhà Xuất Bản Hội Nhà Văn"
+              }
+            ]
+          }
+        ],
+        "badges": {
+          "is_TOPDEAL": true,
+          "is_FREESHIPEXTRA": true,
+          "is_OFFICIAL": true,
+          "is_NOW": false
+        },
+        "id": "7"
+      },
+      "shippingDiscount": 25000,
+      "voucherDiscount": 0,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
+      "price": 108000,
+      "quantity": 1,
+      "sale": 0,
+      "orderDate": "4/16/2025",
+      "paymentMethod": "cash",
+      "deliveryDate": "Trước 13h hôm nay",
+      "service": 1,
+      "deliveryId": 1,
+      "sku": "9472871563136",
+      "seller": "Nhà sách Fahasa",
+      "book": {
+        "book_cover": null,
+        "categories": {
+          "id": 316,
+          "name": "Sách tiếng Việt",
+          "is_leaf": false
+        },
+        "current_seller": {
+          "id": 53660,
+          "sku": "9472871563136",
+          "name": "Nhà sách Fahasa",
+          "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
+          "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
+          "price": 108000,
+          "product_id": "74677933",
+          "store_id": 51001,
+          "is_best_store": false,
+          "is_offline_installment_supported": null
+        },
+        "description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”\n- Booklist\n“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”\n- The National\nHãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.\nCó hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến, thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.\nTác giả: \nJOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....",
+        "images": [
+          {
+            "base_url": "https://salt.tikicdn.com/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "is_gallery": true,
+            "label": null,
+            "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+            "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+          }
+        ],
+        "list_price": 108000,
+        "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
+        "original_price": 108000,
+        "quantity_sold": {
+          "text": "Đã bán 805",
+          "value": 805
+        },
+        "rating_average": 5,
+        "short_description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”- Booklist“Một cách nhìn cuộc sống gần như hoàn chỉnh t...",
+        "specifications": [
+          {
+            "name": "Thông tin chung",
+            "attributes": [
+              {
+                "code": "publisher_vn",
+                "name": "Công ty phát hành",
+                "value": "Nhã Nam"
+              },
+              {
+                "code": "dimensions",
+                "name": "Kích thước",
+                "value": "14 x 20.5 cm"
+              },
+              {
+                "code": "dich_gia",
+                "name": "Dịch Giả",
+                "value": "Nguyễn Bích Lan , Tô Yến Ly"
+              },
+              {
+                "code": "book_cover",
+                "name": "Loại bìa",
+                "value": "Bìa mềm"
+              },
+              {
+                "code": "number_of_page",
+                "name": "Số trang",
+                "value": "244"
+              },
+              {
+                "code": "manufacturer",
+                "name": "Nhà xuất bản",
+                "value": "Nhà Xuất Bản Hội Nhà Văn"
+              }
+            ]
+          }
+        ],
+        "badges": {
+          "is_TOPDEAL": true,
+          "is_FREESHIPEXTRA": true,
+          "is_OFFICIAL": true,
+          "is_NOW": false
+        },
+        "id": "7"
+      },
+      "shippingDiscount": 25000,
+      "voucherDiscount": 0,
+      "id": 4
+    }
+  ],
+  "voucher": [
+    {
+      "id": 1,
+      "voucher_name": "Giảm 30K",
+      "discount": "30000",
+      "minimum_order": "200000",
+      "status": "Không giới hạn"
+    },
+    {
+      "id": 2,
+      "voucher_name": "Giảm 50K",
+      "discount": "50000",
+      "minimum_order": "300000",
+      "status": "Không giới hạn"
+    },
+    {
+      "id": 3,
+      "voucher_name": "Giảm 100K",
+      "discount": "100000",
+      "minimum_order": "700000",
+      "status": "Không giới hạn"
+    },
+    {
+      "id": 4,
+      "voucher_name": "Giảm 70K",
+      "discount": "70000",
+      "minimum_order": "500000",
+      "status": "Không giới hạn"
+    }
+  ],
+  "categories": [
+    {
+      "id": 316,
+      "name": "Sách tiếng Việt",
+      "is_leaf": false,
+      "subcategories": []
+    },
+    {
+      "id": 385,
+      "name": "Sách kỹ năng làm việc",
+      "is_leaf": true,
+      "subcategories": []
+    },
+    {
+      "id": 845,
+      "name": "Truyện ngắn - Tản văn - Tạp Văn",
+      "is_leaf": true,
+      "subcategories": []
+    },
+    {
+      "id": 842,
+      "name": "Tác phẩm kinh điển",
+      "is_leaf": true,
+      "subcategories": []
+    },
+    {
+      "id": 871,
+      "name": "Sách tư duy - Kỹ năng sống",
+      "is_leaf": true,
+      "subcategories": []
+    },
+    {
+      "id": 320,
+      "name": "English Books",
+      "is_leaf": false,
+      "subcategories": []
+    }
+  ],
   "searches": [
     {
-      "name": "1",
-      "id": 45
+      "name": "english",
+      "id": 112
     },
     {
-      "name": "2",
-      "id": 46
+      "name": "aaad",
+      "id": 117
     },
     {
-      "name": "3",
-      "id": 47
+      "name": "sah",
+      "id": 118
     },
     {
-      "name": "4",
-      "id": 48
+      "name": "aaaaaaaaazzsdasdasd",
+      "id": 119
     },
     {
-      "name": "5",
-      "id": 49
+      "name": "A",
+      "id": 120
     },
     {
-      "name": "6",
-      "id": 50
+      "name": "ĐÊM",
+      "id": 122
     },
     {
-      "name": "7",
-      "id": 51
-    },
-    {
-      "name": "8",
-      "id": 52
-    },
-    {
-      "name": "9",
-      "id": 53
-    },
-    {
-      "name": "10",
-      "id": 54
+      "name": "cam",
+      "id": 123
     }
   ],
   "users": [
@@ -46,27 +342,25 @@
       "email": "admin@admin.com",
       "password": "$2a$10$7/oSEf2mIaUAqgDXS0BDaO1eXZ2YYfOYU027/931xmvK6qW8yZjsa",
       "role": "admin",
-      "id": 1
+      "id": 1,
+      "fullName": "Admin User",
+      "nickName": "Admin",
+      "birthDay": "01/01/1980",
+      "gender": "male",
+      "phone": "+840123456789",
+      "address": "123 Admin Street, Hanoi, Vietnam"
     },
     {
       "email": "hatrumtruong03@gmail.com",
       "password": "$2a$10$tzAW6Aq3zzj7oM5deWPe9.od.ug5073bLhcSgC/aITYOdho3XldYO",
       "role": "user",
-      "id": 2
-    },
-    {
-      "email": "riverminnn@gmail.com",
-      "password": "$2a$10$n.O6b0UC5Gksg2olR1qld.uw0/yKpg9RDoN7rsMDgSykvsoffcrYG",
-      "confirmPassword": "123123",
-      "role": "user",
-      "id": 4
-    },
-    {
-      "email": "quangha27103@gmail.com",
-      "password": "$2a$10$r1Cr/SYU9/hJy5VOfqhZJe3loEuj87oZF6J2J.m8avQy.cojiNnaS",
-      "confirmPassword": "Ha!@270203",
-      "role": "user",
-      "id": 5
+      "id": 2,
+      "fullName": "Ha Truong",
+      "nickName": "River",
+      "birthDay": "03/07/2003",
+      "gender": "male",
+      "phone": "+840987654321",
+      "address": "456 User Lane, Ho Chi Minh City, Vietnam"
     }
   ],
   "books": [
@@ -149,6 +443,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "6"
     },
     {
@@ -228,6 +528,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": false
+      },
       "id": "7"
     },
     {
@@ -275,7 +581,7 @@
         "text": "Đã bán 48",
         "value": 48
       },
-      "rating_average": 4.8,
+      "rating_average": 4,
       "short_description": "Câu chuyện bắt đầu từ một chuyến bay trong ngày mưa ảm đạm, một người đàn ông 37 tuổi chợt nghe thấy bài hát gắn liền với hình ảnh người yêu cũ, thế là quá khứ ùa về xâm chiếm thực tại. Mười tám năm t...",
       "specifications": [
         {
@@ -319,6 +625,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "8"
     },
     {
@@ -366,7 +678,7 @@
         "text": "Đã bán 1000+",
         "value": 2269
       },
-      "rating_average": 5,
+      "rating_average": 4.2,
       "short_description": "Sơ lược về tác phẩmTất cả những trải nghiệm trong chuyến phiêu du theo đuổi vận mệnh của mình đã giúp Santiago thấu hiểu được ý nghĩa sâu xa nhất của hạnh phúc, hòa hợp với vũ trụ và con người.Tiểu ...",
       "specifications": [
         {
@@ -405,6 +717,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "9"
     },
     {
@@ -470,7 +788,7 @@
         "text": "Đã bán 1000+",
         "value": 9630
       },
-      "rating_average": 4.8,
+      "rating_average": 3.8,
       "short_description": "Cuốn sách sẽ giúp bạn trở nên giàu có, làm giàu cho cuộc sống của bạn trên tất cả các phương diện của cuộc sống chứ không chỉ về tài chính và vật chất.Think and grow rich – 13 nguyên tắc nghĩ giàu, l...",
       "specifications": [
         {
@@ -509,6 +827,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "10"
     },
     {
@@ -565,7 +889,7 @@
         "text": "Đã bán 1000+",
         "value": 2105
       },
-      "rating_average": 4.8,
+      "rating_average": 2.8,
       "short_description": "Như bạn có thể thấy, chìa khóa để trở thành một người có tư duy phản biện tốt chính là sự tự nhận thức. Bạn cần phải đánh giá trung thực những điều trước đây bạn nghĩ là đúng, cũng như quá trình suy n...",
       "specifications": [
         {
@@ -604,6 +928,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "12"
     },
     {
@@ -651,7 +981,7 @@
         "text": "Đã bán 567",
         "value": 567
       },
-      "rating_average": 4.8,
+      "rating_average": 5,
       "short_description": "NHỮNG ĐÊM KHÔNG NGỦ NHỮNG NGÀY CHẬM TRÔI - A CRAZY MIND“Những đêm không ngủ, những ngày chậm trôi” đại diện cho một hành tinh mới - nơi nỗi đau tinh thần được đưa ra ánh sáng và chữa lành.Cuốn sách ...",
       "specifications": [
         {
@@ -690,6 +1020,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "13"
     },
     {
@@ -785,6 +1121,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "14"
     },
     {
@@ -864,7 +1206,7 @@
       "list_price": 300000,
       "name": "THIÊN HOÀNG MINH TRỊ - BÌA MỀM",
       "original_price": 300000,
-      "rating_average": 0,
+      "rating_average": 3.4,
       "short_description": "Triều đại Minh Trị là giai đoạn khai sinh ra nước Nhật mới, chuyển từ quốc gia phong kiến lạc hậu sang một xã hội công nghiệp lập hiến hiện đại, tạo nên một cuộc duy tân thần kì mà cho đến nay vẫn là ...",
       "specifications": [
         {
@@ -903,6 +1245,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": false,
+        "is_NOW": true
+      },
       "id": "15"
     },
     {
@@ -1070,6 +1418,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": false,
+        "is_NOW": false
+      },
       "id": "16"
     },
     {
@@ -1161,6 +1515,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": false
+      },
       "id": "17"
     },
     {
@@ -1242,6 +1602,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": false,
+        "is_NOW": true
+      },
       "id": "18"
     },
     {
@@ -1404,6 +1770,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "19"
     },
     {
@@ -1504,6 +1876,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "20"
     },
     {
@@ -1596,7 +1974,7 @@
         "text": "Đã bán 54",
         "value": 54
       },
-      "rating_average": 4.6,
+      "rating_average": 5,
       "short_description": "TƯ DUY NGƯỢC Tác giả Nguyễn Anh DũngChúng ta thực sự có hạnh phúc không? Chúng ta có đang sống cuộc đời mình không? Chúng ta có dám dũng cảm chiến thắng mọi khuôn mẫu, định kiến, đi ngược đám đông đ...",
       "specifications": [
         {
@@ -1635,6 +2013,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": false
+      },
       "id": "21"
     },
     {
@@ -1889,7 +2273,7 @@
         "text": "Đã bán 1000+",
         "value": 9476
       },
-      "rating_average": 5,
+      "rating_average": 3.5,
       "short_description": "The world's best-selling grammar series for learners of English. English Grammar in Use Fourth edition is an updated version of the world's best-selling grammar title. It has a fresh, appealing new de...",
       "specifications": [
         {
@@ -1908,6 +2292,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": false,
+        "is_NOW": false
+      },
       "id": "22"
     },
     {
@@ -1955,7 +2345,7 @@
         "text": "Đã bán 622",
         "value": 622
       },
-      "rating_average": 5,
+      "rating_average": 3.5,
       "short_description": "The perfect choice for advanced-level students wanting to build their vocabulary skills. English Vocabulary in Use: Advanced includes over 2,000 new words and expressions which are presented and pract...",
       "specifications": [
         {
@@ -1979,6 +2369,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": false,
+        "is_NOW": true
+      },
       "id": "23"
     },
     {
@@ -2035,7 +2431,7 @@
         "text": "Đã bán 23",
         "value": 23
       },
-      "rating_average": 4.3,
+      "rating_average": 4.1,
       "short_description": "Ngữ pháp tiếng Anh thường dùng (trình độ trung cấp) – English Grammar in UseNếu phải chọn một cuốn sách ngữ pháp để học tiếng Anh 100% người học tiếng Anh sẽ khuyên bạn chọn English Grammar in Use.Đ...",
       "specifications": [
         {
@@ -2074,6 +2470,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": false,
+        "is_NOW": true
+      },
       "id": "24"
     },
     {
@@ -2121,7 +2523,7 @@
         "text": "Đã bán 71",
         "value": 71
       },
-      "rating_average": 5,
+      "rating_average": 4.4,
       "short_description": "Oxford Word Skills: Elementary: Student's Pack   The first level in a three-level topic-based vocabulary course to learn and practise the words that learners need to know at each CEFR level, based on...",
       "specifications": [
         {
@@ -2145,6 +2547,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "25"
     },
     {
@@ -2270,6 +2678,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "26"
     },
     {
@@ -2317,7 +2731,7 @@
         "text": "Đã bán 469",
         "value": 469
       },
-      "rating_average": 5,
+      "rating_average": 3.1,
       "short_description": "Wonder \"My name is August. I won't describe what I look like. Whatever you're thinking, it's probably worse.\" Auggie wants to be an ordinary ten-year-old. He does ordinary things - eating ice cream, ...",
       "specifications": [
         {
@@ -2361,6 +2775,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "27"
     },
     {
@@ -2475,6 +2895,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": false,
+        "is_NOW": true
+      },
       "id": "28"
     },
     {
@@ -2522,7 +2948,7 @@
         "text": "Đã bán 13",
         "value": 13
       },
-      "rating_average": 5,
+      "rating_average": 3.1,
       "short_description": "Aesop's Fables Aesop's celebrated collection of fables has always been popular with both adults and children. These simple tales embody truths so powerful, the titles of the individual fables - the f...",
       "specifications": [
         {
@@ -2566,6 +2992,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": false,
+        "is_NOW": true
+      },
       "id": "29"
     },
     {
@@ -2662,6 +3094,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "30"
     },
     {
@@ -2758,6 +3196,12 @@
           ]
         }
       ],
+      "badges": {
+        "is_TOPDEAL": false,
+        "is_FREESHIPEXTRA": true,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
       "id": "31"
     },
     {
@@ -2839,7 +3283,13 @@
           ]
         }
       ],
-      "id": "1000"
+      "badges": {
+        "is_TOPDEAL": true,
+        "is_FREESHIPEXTRA": false,
+        "is_OFFICIAL": true,
+        "is_NOW": true
+      },
+      "id": "32"
     }
   ]
 }

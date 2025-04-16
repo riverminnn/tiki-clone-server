@@ -1,0 +1,192 @@
+{/* Left Panel: Profile Information */}
+            <div className="flex flex-col bg-white rounded-xl p-4 w-full pb-8">
+                <h1 className="font-light text-[#242424] my-4 text-[16px]">Thông tin cá nhân</h1>
+                <div className="flex flex-col gap-4">
+                    <div className="flex w-full items-center justify-start h-full">
+                        <div className="relative size-28 rounded-full overflow-visible mb-4 bg-[#F0F8FF] border-4 border-[#C2E1FF] flex items-center justify-center">
+                            <div className="w-[50px] h-[50px] bg-gray-300 rounded-full"></div>
+                            <div className="absolute bottom-0 right-0 size-6 rounded-full bg-[#64646D] cursor-pointer hover:bg-[#81818b] flex items-center justify-center z-10 translate-x-1 translate-y-1">
+                                <div className="w-[10px] h-[10px] bg-white rounded-full"></div>
+                            </div>
+                        </div>
+                        <div className="flex flex-col w-[380px] px-4 pb-4 gap-8 h-[140px] items-center justify-around">
+                            <div className="form-control flex items-center justify-center">
+                                <label htmlFor="fullName" className="w-full text-[14px] font-light text-[#242424]">Họ & Tên</label>
+                                <input
+                                    type="text"
+                                    id="fullName"
+                                    value="ruuver"
+                                    disabled
+                                    className="input border border-gray-200 p-2 w-[258px] rounded-lg text-[14px] font-light text-[#242424] disabled:bg-gray-100"
+                                />
+                            </div>
+                            <div className="form-control flex items-center justify-center">
+                                <label htmlFor="nickname" className="w-full text-[14px] font-light text-[#242424]">Nickname</label>
+                                <input
+                                    type="text"
+                                    id="nickname"
+                                    value="ruuver"
+                                    disabled
+                                    className="input border border-gray-200 p-2 w-[258px] rounded-lg text-[14px] font-light text-[#242424] disabled:bg-gray-100"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="form-control flex items-center justify-between">
+                        <label htmlFor="birthDay" className="w-fit text-[14px] font-light text-[#242424]">Ngày sinh</label>
+                        <div className="flex gap-2 w-[380px]">
+                            <select
+                                name="day"
+                                value="16"
+                                disabled
+                                className="border border-gray-200 p-2 rounded-lg text-[14px] font-light text-[#242424] w-full disabled:bg-gray-100"
+                            >
+                                <option value="" disabled>Ngày</option>
+                                {Array.from({ length: 31 }, (_, i) => i + 1).map(day => (
+                                    <option key={day} value={day}>{day}</option>
+                                ))}
+                            </select>
+                            <select
+                                name="month"
+                                value="1"
+                                disabled
+                                className="border border-gray-200 p-2 rounded-lg text-[14px] font-light text-[#242424] w-full disabled:bg-gray-100"
+                            >
+                                <option value="" disabled>Tháng</option>
+                                {Array.from({ length: 12 }, (_, i) => i + 1).map(month => (
+                                    <option key={month} value={month}>{month}</option>
+                                ))}
+                            </select>
+                            <select
+                                name="year"
+                                value="1990"
+                                disabled
+                                className="border border-gray-200 p-2 rounded-lg text-[14px] font-light text-[#242424] w-full disabled:bg-gray-100"
+                            >
+                                <option value="" disabled>Năm</option>
+                                {Array.from({ length: 73 }, (_, i) => 2024 - i).map(year => (
+                                    <option key={year} value={year}>{year}</option>
+                                ))}
+                            </select>
+                        </div>
+                    </div>
+                    <div className="form-control flex items-center justify-between">
+                        <label htmlFor="gender" className="w-full text-[14px] font-light text-[#242424]">Giới tính</label>
+                        <div className="flex gap-4 w-[258px]">
+                            <label className="flex items-center gap-2 cursor-pointer">
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="male"
+                                    checked
+                                    disabled
+                                    className="w-4 h-4 accent-blue-600 disabled:cursor-not-allowed"
+                                />
+                                <span className="text-[14px] font-light text-[#242424]">Nam</span>
+                            </label>
+                            <label className="flex items-center gap-2 cursor-pointer">
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="female"
+                                    disabled
+                                    className="w-4 h-4 accent-blue-600 disabled:cursor-not-allowed"
+                                />
+                                <span className="text-[14px] font-light text-[#242424]">Nữ</span>
+                            </label>
+                            <label className="flex items-center gap-2 cursor-pointer">
+                                <input
+                                    type="radio"
+                                    name="gender"
+                                    value="other"
+                                    disabled
+                                    className="w-4 h-4 accent-blue-600 disabled:cursor-not-allowed"
+                                />
+                                <span className="text-[14px] font-light text-[#242424]">Khác</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div className="pt-4 mt-4 hidden">
+                        <h2 className="font-light text-[#242424] mb-4 text-[16px]">Đổi mật khẩu</h2>
+                        <div className="form-control flex items-center justify-between mb-3">
+                            <label htmlFor="currentPassword" className="w-full text-[14px] font-light text-[#242424]">
+                                Mật khẩu hiện tại
+                            </label>
+                            <input
+                                type="password"
+                                id="currentPassword"
+                                value=""
+                                disabled
+                                className="input border border-gray-200 p-2 w-[258px] rounded-lg text-[14px] font-light text-[#242424] disabled:bg-gray-100"
+                            />
+                        </div>
+                        <div className="form-control flex items-center justify-between mb-3">
+                            <label htmlFor="newPassword" className="w-full text-[14px] font-light text-[#242424]">
+                                Mật khẩu mới
+                            </label>
+                            <input
+                                type="password"
+                                id="newPassword"
+                                value=""
+                                disabled
+                                className="input border border-gray-200 p-2 w-[258px] rounded-lg text-[14px] font-light text-[#242424] disabled:bg-gray-100"
+                            />
+                        </div>
+                        <div className="form-control flex items-center justify-between mb-3">
+                            <label htmlFor="confirmPassword" className="w-full text-[14px] font-light text-[#242424]">
+                                Xác nhận mật khẩu
+                            </label>
+                            <input
+                                type="password"
+                                id="confirmPassword"
+                                value=""
+                                disabled
+                                className="input border border-gray-200 p-2 w-[258px] rounded-lg text-[14px] font-light text-[#242424] disabled:bg-gray-100"
+                            />
+                        </div>
+                    </div>
+                    <div className="form-control flex justify-end mt-4 gap-2">
+                        <button
+                            className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors text-[14px]"
+                        >
+                            Lưu thay đổi
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Right Panel: Contact and Security */}
+            <div className="flex flex-col bg-white rounded-xl p-4 w-full pb-8">
+                <h1 className="font-light text-[#242424] my-4 text-[16px]">Số điện thoại và Email</h1>
+                <div className="flex flex-col gap-4">
+                    <div className="form-control flex flex-col gap-2">
+                        <label className="text-[14px] font-light text-[#242424]">Số điện thoại</label>
+                        <div className="flex justify-between items-center">
+                            <span className="text-[14px] font-light text-[#242424]">0868710827</span>
+                            <button className="text-blue-500 border border-blue-500 px-3 py-1 rounded-lg text-[14px] font-light hover:bg-blue-50">
+                                Cập nhật
+                            </button>
+                        </div>
+                    </div>
+                    <div className="form-control flex flex-col gap-2">
+                        <label className="text-[14px] font-light text-[#242424]">Địa chỉ email</label>
+                        <div className="flex justify-between items-center">
+                            <span className="text-[14px] font-light text-[#242424]">hatrumtruong03@gmail.com</span>
+                            <button className="text-blue-500 border border-blue-500 px-3 py-1 rounded-lg text-[14px] font-light hover:bg-blue-50">
+                                Cập nhật
+                            </button>
+                        </div>
+                    </div>
+                    <div className="pt-4 mt-4">
+                        <h2 className="font-light text-[#242424] mb-4 text-[16px]">Bảo mật</h2>
+                        <div className="form-control flex flex-col gap-2">
+                            <div className="flex justify-between items-center">
+                                <span className="text-[14px] font-light text-[#242424]">Thiết lập mật khẩu</span>
+                                <button className="text-blue-500 border border-blue-500 px-3 py-1 rounded-lg text-[14px] font-light hover:bg-blue-50">
+                                    Cập nhật
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
