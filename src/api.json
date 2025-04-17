@@ -35,112 +35,10 @@
   ],
   "orders": [
     {
-      "userId": 2,
-      "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
-      "price": 108000,
-      "quantity": 2,
-      "sale": 0,
-      "orderDate": "4/16/2025",
-      "paymentMethod": "cash",
-      "deliveryDate": "Trước 13h hôm nay",
-      "service": 1,
-      "deliveryId": 1,
-      "sku": "9472871563136",
-      "seller": "Nhà sách Fahasa",
-      "book": {
-        "book_cover": null,
-        "categories": {
-          "id": 316,
-          "name": "Sách tiếng Việt",
-          "is_leaf": false
-        },
-        "current_seller": {
-          "id": 53660,
-          "sku": "9472871563136",
-          "name": "Nhà sách Fahasa",
-          "link": "https://tiki.vn/cua-hang/nha-sach-fahasa",
-          "logo": "ce/b3/22/b8fabaef7909cfe7349e7b538a174ab8.jpg",
-          "price": 108000,
-          "product_id": "74677933",
-          "store_id": 51001,
-          "is_best_store": false,
-          "is_offline_installment_supported": null
-        },
-        "description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”\n- Booklist\n“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”\n- The National\nHãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.\nCó hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến, thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.\nTác giả: \nJOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....",
-        "images": [
-          {
-            "base_url": "https://salt.tikicdn.com/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-            "is_gallery": true,
-            "label": null,
-            "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-            "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-            "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
-            "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
-          }
-        ],
-        "list_price": 108000,
-        "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
-        "original_price": 108000,
-        "quantity_sold": {
-          "text": "Đã bán 805",
-          "value": 805
-        },
-        "rating_average": 5,
-        "short_description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một tác phẩm kinh điển của Brazil.”- Booklist“Một cách nhìn cuộc sống gần như hoàn chỉnh t...",
-        "specifications": [
-          {
-            "name": "Thông tin chung",
-            "attributes": [
-              {
-                "code": "publisher_vn",
-                "name": "Công ty phát hành",
-                "value": "Nhã Nam"
-              },
-              {
-                "code": "dimensions",
-                "name": "Kích thước",
-                "value": "14 x 20.5 cm"
-              },
-              {
-                "code": "dich_gia",
-                "name": "Dịch Giả",
-                "value": "Nguyễn Bích Lan , Tô Yến Ly"
-              },
-              {
-                "code": "book_cover",
-                "name": "Loại bìa",
-                "value": "Bìa mềm"
-              },
-              {
-                "code": "number_of_page",
-                "name": "Số trang",
-                "value": "244"
-              },
-              {
-                "code": "manufacturer",
-                "name": "Nhà xuất bản",
-                "value": "Nhà Xuất Bản Hội Nhà Văn"
-              }
-            ]
-          }
-        ],
-        "badges": {
-          "is_TOPDEAL": true,
-          "is_FREESHIPEXTRA": true,
-          "is_OFFICIAL": true,
-          "is_NOW": false
-        },
-        "id": "7"
-      },
-      "shippingDiscount": 25000,
-      "voucherDiscount": 0,
-      "id": 3
-    },
-    {
       "userId": 1,
       "name": "Cây Cam Ngọt Của Tôi - Tái bản lần 2",
       "price": 108000,
-      "quantity": 1,
+      "quantity": 3,
       "sale": 0,
       "orderDate": "4/16/2025",
       "paymentMethod": "cash",
@@ -236,37 +134,97 @@
       },
       "shippingDiscount": 25000,
       "voucherDiscount": 0,
-      "id": 4
+      "id": 2
     }
   ],
   "voucher": [
     {
-      "id": 1,
+      "id": "DISC001",
       "voucher_name": "Giảm 30K",
       "discount": "30000",
-      "minimum_order": "200000",
-      "status": "Không giới hạn"
+      "minimum_order": "150000",
+      "code": "TIKI30K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 30.000đ cho đơn hàng từ 150.000đ",
+      "type": "discount",
+      "status": "active"
     },
     {
-      "id": 2,
+      "id": "DISC002",
       "voucher_name": "Giảm 50K",
       "discount": "50000",
-      "minimum_order": "300000",
-      "status": "Không giới hạn"
+      "minimum_order": "250000",
+      "code": "TIKI50K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 50.000đ cho đơn hàng từ 250.000đ",
+      "type": "discount",
+      "status": "active"
     },
     {
-      "id": 3,
+      "id": "DISC003",
       "voucher_name": "Giảm 100K",
       "discount": "100000",
-      "minimum_order": "700000",
-      "status": "Không giới hạn"
+      "minimum_order": "500000",
+      "code": "TIKI100K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 100.000đ cho đơn hàng từ 500.000đ",
+      "type": "discount",
+      "status": "active"
     },
     {
-      "id": 4,
-      "voucher_name": "Giảm 70K",
-      "discount": "70000",
+      "id": "SHIP001",
+      "voucher_name": "Freeship 15K",
+      "discount": "15000",
+      "minimum_order": "99000",
+      "code": "FREESHIP15K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 15.000đ phí vận chuyển cho đơn hàng từ 99.000đ",
+      "type": "shipping",
+      "status": "active"
+    },
+    {
+      "id": "SHIP002",
+      "voucher_name": "Freeship 25K",
+      "discount": "25000",
+      "minimum_order": "150000",
+      "code": "FREESHIP25K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 25.000đ phí vận chuyển cho đơn hàng từ 150.000đ",
+      "type": "shipping",
+      "status": "active"
+    },
+    {
+      "id": "SHIP003",
+      "voucher_name": "Freeship Toàn Bộ",
+      "discount": "40000",
+      "minimum_order": "300000",
+      "code": "FREESHIP40K",
+      "expiry_date": "31/12/2025",
+      "description": "Miễn phí vận chuyển toàn bộ cho đơn hàng từ 300.000đ",
+      "type": "shipping",
+      "status": "active"
+    },
+    {
+      "id": "SPEC001",
+      "voucher_name": "Ưu đãi sinh nhật",
+      "discount": "100000",
+      "minimum_order": "300000",
+      "code": "BIRTHDAY100K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 100.000đ cho đơn hàng từ 300.000đ - Ưu đãi sinh nhật",
+      "type": "discount",
+      "status": "inactive"
+    },
+    {
+      "id": "SPEC002",
+      "voucher_name": "Flash Sale",
+      "discount": "150000",
       "minimum_order": "500000",
-      "status": "Không giới hạn"
+      "code": "FLASH150K",
+      "expiry_date": "31/12/2025",
+      "description": "Giảm 150.000đ cho đơn hàng từ 500.000đ - Chỉ trong 2 giờ",
+      "type": "discount",
+      "status": "inactive"
     }
   ],
   "categories": [
@@ -309,32 +267,44 @@
   ],
   "searches": [
     {
-      "name": "english",
-      "id": 112
+      "name": "adasa",
+      "id": 81
     },
     {
-      "name": "aaad",
-      "id": 117
+      "name": "adasa",
+      "id": 82
     },
     {
-      "name": "sah",
-      "id": 118
+      "name": "adasa",
+      "id": 83
     },
     {
-      "name": "aaaaaaaaazzsdasdasd",
-      "id": 119
+      "name": "adasa",
+      "id": 84
     },
     {
-      "name": "A",
-      "id": 120
+      "name": "adasa",
+      "id": 85
     },
     {
-      "name": "ĐÊM",
-      "id": 122
+      "name": "adasa",
+      "id": 86
     },
     {
-      "name": "cam",
-      "id": 123
+      "name": "adasa",
+      "id": 87
+    },
+    {
+      "name": "adasa",
+      "id": 88
+    },
+    {
+      "name": "adasa",
+      "id": 89
+    },
+    {
+      "name": "adasa",
+      "id": 90
     }
   ],
   "users": [
